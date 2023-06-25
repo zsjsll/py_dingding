@@ -4,7 +4,7 @@ import uiautomator2 as u2
 # //指令  adb devices查看
 
 
-d = u2.connect("4c99a1fa")
+d = u2.connect("2100cb76")
 # d = u2.connect("860BDMK229ZQ")
 
 if d.info["screenOn"]:
